@@ -1,0 +1,32 @@
+
+    * {     
+        margin-left: auto;
+      
+}
+.card-products {    
+        display: flex;   
+        justify-content:space-between;
+        flex-wrap: wrap;
+        margin: 200px;  
+        padding: 20px;
+        text-align: center; 
+        margin-top: 300px;      
+    }
+     
+    .img-card {
+        width: 300px;
+        margin: 100px;      
+    }
+    
+    .nombre {
+        margin-top: -40px;
+        font-size: 20px;
+       
+    }
+    p{
+        font-size: 18px;
+        margin-top: 10px;
+        text-align: center;
+    }
+   
+   

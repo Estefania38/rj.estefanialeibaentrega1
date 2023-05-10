@@ -1,0 +1,267 @@
+[
+    {
+        "id": 1,
+        "name": "Wired Run Speckles ADP",
+        "description": "Calzado para correr",
+        "color" : "Puma Black-High Risk Red",
+        "price": "15699",
+        "img": "https://images.puma.com/image/upload/f_auto,q_auto,b_rgb:fafafa,w_480,h_480/global/389052/01/sv01/fnd/ARG/fmt/png",
+        "category": "calzado-sale",
+        "talle": "36, 37, 38",
+        "stock": "5"
+        
+    },
+    {
+        "id": 2,
+        "name": "Zapatillas Flyer Flex ADP",
+        "description": "Calzado de diseño y comodidad",
+        "color" : "Peacoat-Puma White",
+        "price": "16275",
+        "img": "https://images.puma.com/image/upload/f_auto,q_auto,b_rgb:fafafa,w_480,h_480/global/376491/06/sv01/fnd/ARG/fmt/png",
+        "category": "calzado-sale",
+        "talle": "36, 37, 38",
+        "stock": "5"
+    },
+        {
+        "id": 3,
+        "name": "Zapatillas Future Rider Twofold",
+        "description": "Calzado estilo urbano",
+        "color" : "China Blue-Blue Fog-Saffron",
+        "price": "18689",
+        "img": "https://img.segmentify.com/s/fit-in/361x361/images.puma.net/images/381052/11/sv01/fnd/ARG/",
+        "category": "calzado-sale",
+        "talle": "36, 37, 38",
+        "stock": "5"
+    },
+        {
+        "id": 4,
+        "name": "Zapatillas Cruise Rider ADP",
+        "description": "Calzado estilo urbano con plataforma",
+        "color" : "Glacier Gray-Sunset Glow",
+        "price": "24429",
+        "img": "https://images.puma.com/image/upload/f_auto,q_auto,b_rgb:fafafa,w_480,h_480/global/375072/44/sv01/fnd/ARG/fmt/png",
+        "category": "calzado-sale",
+        "talle": "36, 37, 38",
+        "stock": "5"
+    },
+        {
+        "id": 5,
+        "name": "Zapatillas running Deviate NITRO 2",
+        "description": "Calzado para running",
+        "color" : "Sunset Glow-Puma Black",
+        "price": "46899",
+        "img": "https://images.puma.com/image/upload/f_auto,q_auto,b_rgb:fafafa,w_480,h_480/global/376855/04/sv01/fnd/ARG/fmt/png",
+        "category": "calzado-dama",
+        "talle": "36, 37, 38",
+        "stock": "5"
+    },
+        {
+        "id": 6,
+        "name": "Zapatillas RS-Simul8 Reality ADP",
+        "description": "Calzado estilo urbano con plataforma",
+        "color" : "Puma White-Bluemazing",
+        "price": "43699",
+        "img": "https://images.puma.com/image/upload/f_auto,q_auto,b_rgb:fafafa,w_480,h_480/global/388995/01/sv01/fnd/ARG/fmt/png",
+        "category": "calzado-dama",
+        "talle": "36, 37, 38",
+        "stock": "5"
+    },
+        {
+        "id": 7,
+        "name": "Zapatillas Mayze Stack RetroGrade",
+        "description": "Calzado estilo urbano con plataforma",
+        "color" : "Vaporous Gray",
+        "price": "46999",
+        "img": "https://images.puma.com/image/upload/f_auto,q_auto,b_rgb:fafafa,w_480,h_480/global/386450/01/sv01/fnd/ARG/fmt/png",
+        "category": "calzado-dama",
+        "talle": "36, 37, 38",
+        "stock": "5"
+    },
+        {
+        "id": 8,
+        "name": "Zapatillas RS-Simul8 Reality ADP",
+        "description": "Calzado estilo urbano",
+        "color" : "Ebony-Puma Black",
+        "price": "43699",
+        "img": "https://images.puma.com/image/upload/f_auto,q_auto,b_rgb:fafafa,w_480,h_480/global/388995/02/sv01/fnd/ARG/fmt/png",
+        "category": "calzado-dama",
+        "talle": "36, 37, 38",
+        "stock": "5"
+    },      
+     {
+        "id": 9,
+        "name": "Zapatillas Electrify Nitro 2ADP",
+        "description": "Calzado para running",
+        "color" : "Puma Black-Puma White",
+        "price": "35999",
+        "img": "https://images.puma.com/image/upload/f_auto,q_auto,b_rgb:fafafa,w_480,h_480/global/377689/01/sv01/fnd/ARG/fmt/png",
+        "category": "calzado-hombre",
+        "talle": "36, 37, 38",
+        "stock": "5"
+    },
+        {
+        "id": 10,
+        "name": "Botín Fútbol Borussia TT",
+        "description": "Botin de futbol",
+        "color" : "Puma Black-Puma White-Gold",
+        "price": "32699",
+        "img": "https://img.segmentify.com/s/fit-in/360x360/images.puma.net/images/104656/01/sv01/fnd/ARG/",
+        "category": "calzado-hombre",
+        "talle": "36, 37, 38",
+        "stock": "5"
+    },
+    {
+        "id": 11,
+        "name": "Zapatillas TRC Blaze ADP",
+        "description": "Calzado tranning",
+        "color" : "Puma White-Nimbus Cloud",
+        "price": "20599",
+        "img": "https://img.segmentify.com/s/fit-in/360x360/images.puma.net/images/384958/02/sv01/fnd/ARG/",
+        "category": "calzado-hombre",
+        "talle": "36, 37, 38",
+        "stock": "5"
+    },
+    {
+        "id": 12,
+        "name": "Spike evoSPEED TOKYO FUTURE",
+        "description": "Botin para futbol 11",
+        "color" : "Fizzy Yellow-Puma Black-Nrgy Peach",
+        "price": "32829",
+        "img": "https://img.segmentify.com/s/fit-in/360x360/images.puma.net/images/192473/01/sv01/fnd/ARG/",
+        "category": "calzado-hombre",
+        "talle": "36, 37, 38",
+        "stock": "5"
+    },
+    {
+        "id": 13,
+        "name": "Zapatillas infantiles TRC Blaze Galaxy2",
+        "description": "Calzado niño TRC",
+        "color" : "Puma Black-Victoria Blue",
+        "price": "21899",
+        "img": "https://images.puma.com/image/upload/f_auto,q_auto,b_rgb:fafafa,w_480,h_480/global/386003/02/sv01/fnd/ARG/fmt/png",
+        "category": "calzado-niño",
+        "talle": "34, 35, 36",
+        "stock": "8"
+    },
+    {
+        "id": 14,
+        "name": "Zapatillas para bebés Pokémon Charmander",
+        "description": "Calzado para bebe Pokemon",
+        "color" : "Dark Cheddar-Pale Lemon",
+        "price": "23799",
+        "img": "https://img.segmentify.com/s/fit-in/360x360/images.puma.net/images/387811/01/sv01/fnd/ARG/",
+        "category": "calzado-niño",
+        "talle": "34, 35, 36",
+        "stock": "3"
+    },
+    {
+        "id": 15,
+        "name": "Botines FUTURE 3.4 Neymar Jr. TT",
+        "description": "Calzado para niño Neymar",
+        "color" : "Fiery Coral-Gold",
+        "price": "23799",
+        "img": "https://images.puma.com/image/upload/f_auto,q_auto,b_rgb:fafafa,w_480,h_480/global/107277/01/sv01/fnd/ARG/fmt/png",
+        "category": "calzado-niño",
+        "talle": "34, 35, 36",
+        "stock": "5"
+    },
+    {
+        "id": 16,
+        "name": "Zapatillas para bebés CA Pro",
+        "description": "Calzado para bebes CA",
+        "color" : "Puma White-Varsity Green",
+        "price": "20699",
+        "img": "https://images.puma.com/image/upload/f_auto,q_auto,b_rgb:fafafa,w_480,h_480/global/386108/05/sv01/fnd/ARG/fmt/png",
+        "category": "calzado-niño",
+        "talle": "34, 35, 36",
+        "stock": "5"
+    },
+    {
+        "id": 17,
+        "name": "Zapatillas RS-Z Reinvention Para niños",
+        "description": "Calzado niño Reinvention",
+        "color" : "Nimbus Cloud-Puma Black",
+        "price": "26199",
+        "img": "https://images.puma.com/image/upload/f_auto,q_auto,b_rgb:fafafa,w_480,h_480/global/388523/01/sv01/fnd/ARG/fmt/png",
+        "category": "calzado-niño",
+        "talle": "34, 35, 36",
+        "stock": "7"
+    },
+    {
+        "id": 18,
+        "name": "Zapatillas para bebés PUMA x Pokémon Rider FV Pikachu",
+        "description": "Calzado niño Pikachu",
+        "color" : "Puma White-Empire Yellow",
+        "price": "26199",
+        "img": "https://images.puma.com/image/upload/f_auto,q_auto,b_rgb:fafafa,w_480,h_480/global/387818/01/sv01/fnd/ARG/fmt/png",
+        "category": "calzado-niño",
+        "talle": "34, 35, 36",
+        "stock": "7"
+    },
+    {
+        "id": 19,
+        "name": "Camiseta de fútbol Neymar ",
+        "description": "Camiseta de futbol",
+        "color" : "Parisian Night",
+        "price": "16499",
+        "img": "https://images.puma.com/image/upload/f_auto,q_auto,b_rgb:fafafa,w_480,h_480/global/605814/09/mod01/fnd/ARG/fmt/png",
+        "category": "indumentaria",
+        "talle": "m, l, xl",
+        "stock": "10"
+    },
+    {
+        "id": 20,
+        "name": "Remera Essentials Logo Tee",
+        "description": "Remera Essential",
+        "color" : "Medium Gray Heather",
+        "price": "6099",
+        "img": "https://img.segmentify.com/s/fit-in/360x360/images.puma.net/images/845885/03/mod01/fnd/ARG/",
+        "category": "indumentaria",
+        "talle": "m, l, xl",
+        "stock": "5"
+    },
+    {
+        "id": 21,
+        "name": "Remera con estampado gráfico HC",
+        "description": "Remera con estampado",
+        "color" : "Puma Bamboo",
+        "price": "4899",
+        "img": "https://img.segmentify.com/s/fit-in/360x360/images.puma.net/images/533632/31/mod01/fnd/ARG/",
+        "category": "indumentaria",
+        "talle":"m, l, xl",
+        "stock": "11"
+    },
+    {
+        "id": 22,
+        "name": "Remera Essentials Logo jaspeada para mujer",
+        "description": "Remera Essentials dama",
+        "color" : "Peach Parfait",
+        "price": "3999",
+        "img": "https://img.segmentify.com/s/fit-in/360x360/images.puma.net/images/847927/91/mod01/fnd/ARG/",
+        "category": "indumentaria",
+        "talle": "m, l, xl",
+        "stock": "8"
+    },
+    {
+        "id": 23,
+        "name": "Remera Essentials Logo jaspeada",
+        "description":  "Remera Essentials dama",
+        "color" : "Persian Red Heather",
+        "price": "3999",
+        "img": "https://img.segmentify.com/s/fit-in/360x360/images.puma.net/images/847927/33/mod01/fnd/ARG/",
+        "category": "indumentaria",
+        "talle": "m, l, xl",
+        "stock": "10"
+    },
+    {
+        "id": 24,
+        "name": "Remera Essentials Logo jaspeada ",
+        "description":  "Remera Essentials dama",
+        "color" : "Grape Leaf Heather",
+        "price": "6099",
+        "img": "https://img.segmentify.com/s/fit-in/360x360/images.puma.net/images/847927/44/mod01/fnd/ARG/",
+        "category": "indumentaria",
+        "talle": "m, l, xl",
+        "stock": "15"
+    } 
+]

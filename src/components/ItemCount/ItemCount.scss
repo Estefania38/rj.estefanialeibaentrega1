@@ -1,0 +1,42 @@
+*{
+    text-align: center;
+}
+.mx-2 {
+    color: rgb(71, 10, 117);
+    font-size: 20px;
+}
+.button-detail {
+    border: none;
+    outline: 0;
+    padding: 10px;
+    color: rgb(71, 10, 117);
+    background-color: pink;
+    text-align: center;
+    cursor: pointer;
+    width: 10%;
+    font-size: 15px;
+    margin-top: 15px;
+    border-radius: 15px;
+}
+
+.button-detail:hover{
+    opacity: 0.6;
+}
+
+.button-detail-agregar{
+    border: none;
+    outline: 0;
+    padding: 10px;
+    color: rgb(71, 10, 117);
+    background-color: pink;
+    text-align: center;
+    cursor: pointer;
+    width: 23%;
+    font-size: 15px;
+    margin-top: 15px;
+    border-radius: 15px;
+}
+    .button-detail-agregar:hover{
+        opacity: 0.6;
+    }
+    

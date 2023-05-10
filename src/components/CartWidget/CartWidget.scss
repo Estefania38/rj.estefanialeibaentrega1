@@ -1,16 +1,17 @@
 .img-carrito{    
         display: flex;
-        justify-content: space-between;
+        justify-content: space-around;
         flex-wrap: wrap;
         width: 65px;
         margin-top: -18px;
-        margin-left: -80px;
+        margin-left: -5px;
         margin-right: 10px;
         cursor: pointer;   
 
     }
     .indicador {
         color: white;
-        font-size: 20px
+        font-size: 20px;
+        margin-left: 55px;
            
     }
