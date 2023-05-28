@@ -1,8 +1,11 @@
 import "./Navbar.scss";
 import { Link } from "react-router-dom";
 import CartWidget from "../CartWidget/CartWidget";
+import { useContext } from 'react';
+import { AuthContext } from '../../context/AuthContext'
 
 export const Navbar = () => {
+  const { user, logout } = useContext(AuthContext)
   return (
     <header className="header">
       <div className="header-container">
@@ -14,9 +17,14 @@ export const Navbar = () => {
           <Link to="/productos/calzado-hombre" className="navbar-link">Hombre</Link>
           <Link to="/productos/calzado-niño" className="navbar-link">Niños</Link>
           <Link to="/productos/indumentaria" className="navbar-link">Indumentaria</Link>
+          {/*<Link to="/Nosotros/Nosotros" className="navbar-link">Nosotros</Link>*/}
         </nav>
         <CartWidget />
       </div>
+      <div className='container'>
+                <p className="detalle-logout">Bienvenido {user.email}</p>
+                <button className='btn btn btn-logout' onClick={logout}>Logout</button>
+            </div>
     </header>
   );
 };

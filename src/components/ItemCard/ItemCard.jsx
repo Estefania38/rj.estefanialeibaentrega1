@@ -9,6 +9,7 @@ const ItemCard = ({item}) => {
             <p>{item.description}</p>
             <p>Categoria: {item.category}</p>
             <p><strong>Precio: ${item.price}</strong></p>
+            {item.stock <= 12 && <p style={{color: 'green'}}>¡Quedan pocas unidades!</p>}
             <Link to={`/detail/${item.id}`} className='btn btn-primary'>Ver más</Link>
         </div>
     )

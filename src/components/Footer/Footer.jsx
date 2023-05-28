@@ -1,5 +1,6 @@
 import "./Footer.scss";
 
+
 const Footer = () => {
   return (
     <div className="footer">
@@ -31,7 +32,7 @@ const Footer = () => {
           </div>
           <div className="sb__footer-links_div">
             <h4>Acerca de PUMA</h4>
-            <a href="/employer">
+            <a href="./Nosotros/Nosotros">                                               
               <p>Compañia</p>
             </a>
           </div>

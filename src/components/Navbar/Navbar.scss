@@ -17,7 +17,7 @@
       justify-self: start;
       margin-left: 3px;
       margin-top: 0vh;
-      cursor: pointer;      
+      cursor: pointer;
       text-transform: uppercase;
     }
     .navbar {
@@ -38,5 +38,15 @@
       }
     }
   }
+  .detalle-logout {
+    display: flex;
+    color: #fff;
+  }
+  .btn-logout {
+    margin-right: 20px;
+    background-color: rgb(120, 74, 99);
+    font-size: 15px;
+    color: white;
+    display: flex;
+  }
 }
-

@@ -1,7 +1,11 @@
-import { useState } from "react"
+import { useState, useContext,useMemo } from "react"
 import ItemCount from "../ItemCount/ItemCount"
 import SelectTalle from "../SelectTalle/SelectTalle";
 import "./ItemDetail.scss"
+import { CartContext } from "../../context/CartContext"
+import { Link } from "react-router-dom"
+import Swal from 'sweetalert2'
+
 
 const talles = [
     {
@@ -27,15 +31,19 @@ const talles = [
 ]
 
 const ItemDetail = ({item}) => {
+    const { cart, agregarAlCarrito, isInCart } = useContext(CartContext)
     const [cantidad, setCantidad] = useState(1)
     const [talle, setTalle] = useState(null)
 
     const handleAgregar = () => {
-        console.log({
+        const newItem = {
             ...item,
             cantidad,
-            talle
-        })
+           
+        }
+        agregarAlCarrito(newItem)
+        
+        Swal.fire('Producto agregado con exito!','', 'success')
     }    
     return (
         <div className="product-card-container">
@@ -44,16 +52,24 @@ const ItemDetail = ({item}) => {
             <p className="description"><strong>{item.description}</strong></p>
             <p>Categoria: {item.category}</p>
             <p><strong>Precio: ${item.price}</strong></p>
-            <p>Subtotal: {item.price * cantidad}</p>
+            <p><strong>Subtotal: ${item.price * cantidad}</strong></p>
 
             <SelectTalle setTalle ={setTalle} options={talles}/>
-
+             
+            <br/> 
+         
+            
+            {
+                isInCart(item.id)
+                    ? <Link className="btn btn-success" to="/cart">Terminar mi compra</Link>
+                    :
             <ItemCount
                 cantidad={cantidad}
                 setCantidad={setCantidad}
                 stock={item.stock}
                 agregar={handleAgregar}
             />
+}
         </div>
     )
 }

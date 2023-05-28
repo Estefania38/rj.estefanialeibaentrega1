@@ -1,44 +1,47 @@
 import { useEffect } from 'react'
 import './ItemListContainer.scss'
 import { useState } from 'react'
-import { pedirDatos } from '../PedirDatos/pedirDatos'
 import ItemList from '../ItemList/ItemList'
-import { useParams, useSearchParams } from 'react-router-dom'
+import { useParams } from 'react-router-dom'
+import { collection, getDocs, query, where } from 'firebase/firestore';
+import { db } from "../../firebase/config.js";
 
-export const ItemListContainer = () => {  
-    
+export const ItemListContainer = () => {
     const [productos, setProductos] = useState([])
     const [loading, setLoading] = useState(true)
-    const [searchParams] = useSearchParams()
-    const search = searchParams.get('search')
+  
     const { categoryId } = useParams()
 
     useEffect(() => {
         setLoading(true)
-        pedirDatos()
-            .then((data) => {
-                if (!categoryId) {
-                    setProductos(data)
-                } else {
-                    setProductos( data.filter((el) => el.category === categoryId) )
-                }
+
+        // 1.- Armar una referencia (sync)
+        const productosRef = collection(db, "productos")
+        const q = categoryId
+                    ? query(productosRef, where("category", "==", categoryId))
+                    : productosRef
+        // 2.- Consumir esa referencia (async)
+        getDocs(q)
+            .then((res) => {
+                const docs = res.docs.map((doc) => {
+                    return {
+                        ...doc.data(),
+                        id: doc.id
+                    }
+                })
+                setProductos(docs)
             })
-            .catch((err) => console.log(err))
+            .catch(e => console.log(e))
             .finally(() => setLoading(false))
+
     }, [categoryId])
 
-    const listado = search
-                        ? productos.filter((el) => el.nombre.toLowerCase().includes(search.toLowerCase())) 
-                        : productos
-    console.log(listado)
     return (
         <div className="container my-5">
-            {
-                loading
-                    ? <h2>Cargando...</h2>
-                    : <ItemList items={listado}/>
+            {loading 
+                ? <h2>Cargando..</h2>
+                : <ItemList items={productos}/>
             }
         </div>
     )
 }
-

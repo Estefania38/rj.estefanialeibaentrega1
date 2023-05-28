@@ -1,17 +1,10 @@
-.img-carrito{    
-        display: flex;
-        justify-content: space-around;
-        flex-wrap: wrap;
-        width: 65px;
-        margin-top: -18px;
-        margin-left: -5px;
-        margin-right: 10px;
-        cursor: pointer;   
-
-    }
-    .indicador {
-        color: white;
-        font-size: 20px;
-        margin-left: 55px;
-           
-    }
+.cart-widget {
+    font-size: 39px;
+    color: white;
+    cursor: pointer;
+   
+}
+.cart-widget-active {
+    visibility: visible;
+    opacity: 1;
+}
