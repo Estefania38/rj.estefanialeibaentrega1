@@ -1,6 +1,6 @@
 [
     {
-        "id": 1,
+      
         "name": "Wired Run Speckles ADP",
         "description": "Calzado para correr",
         "color" : "Puma Black-High Risk Red",
@@ -12,7 +12,7 @@
         
     },
     {
-        "id": 2,
+       
         "name": "Zapatillas Flyer Flex ADP",
         "description": "Calzado de diseño y comodidad",
         "color" : "Peacoat-Puma White",
@@ -23,7 +23,7 @@
         "stock": "5"
     },
         {
-        "id": 3,
+       
         "name": "Zapatillas Future Rider Twofold",
         "description": "Calzado estilo urbano",
         "color" : "China Blue-Blue Fog-Saffron",
@@ -34,7 +34,7 @@
         "stock": "5"
     },
         {
-        "id": 4,
+      
         "name": "Zapatillas Cruise Rider ADP",
         "description": "Calzado estilo urbano con plataforma",
         "color" : "Glacier Gray-Sunset Glow",
@@ -45,7 +45,7 @@
         "stock": "5"
     },
         {
-        "id": 5,
+       
         "name": "Zapatillas running Deviate NITRO 2",
         "description": "Calzado para running",
         "color" : "Sunset Glow-Puma Black",
@@ -56,7 +56,7 @@
         "stock": "5"
     },
         {
-        "id": 6,
+      
         "name": "Zapatillas RS-Simul8 Reality ADP",
         "description": "Calzado estilo urbano con plataforma",
         "color" : "Puma White-Bluemazing",
@@ -67,7 +67,7 @@
         "stock": "5"
     },
         {
-        "id": 7,
+       
         "name": "Zapatillas Mayze Stack RetroGrade",
         "description": "Calzado estilo urbano con plataforma",
         "color" : "Vaporous Gray",
@@ -78,7 +78,7 @@
         "stock": "5"
     },
         {
-        "id": 8,
+        
         "name": "Zapatillas RS-Simul8 Reality ADP",
         "description": "Calzado estilo urbano",
         "color" : "Ebony-Puma Black",
@@ -89,7 +89,7 @@
         "stock": "5"
     },      
      {
-        "id": 9,
+     
         "name": "Zapatillas Electrify Nitro 2ADP",
         "description": "Calzado para running",
         "color" : "Puma Black-Puma White",
@@ -100,7 +100,7 @@
         "stock": "5"
     },
         {
-        "id": 10,
+     
         "name": "Botín Fútbol Borussia TT",
         "description": "Botin de futbol",
         "color" : "Puma Black-Puma White-Gold",
@@ -111,7 +111,7 @@
         "stock": "5"
     },
     {
-        "id": 11,
+     
         "name": "Zapatillas TRC Blaze ADP",
         "description": "Calzado tranning",
         "color" : "Puma White-Nimbus Cloud",
@@ -122,7 +122,7 @@
         "stock": "5"
     },
     {
-        "id": 12,
+    
         "name": "Spike evoSPEED TOKYO FUTURE",
         "description": "Botin para futbol 11",
         "color" : "Fizzy Yellow-Puma Black-Nrgy Peach",
@@ -133,7 +133,7 @@
         "stock": "5"
     },
     {
-        "id": 13,
+     
         "name": "Zapatillas infantiles TRC Blaze Galaxy2",
         "description": "Calzado niño TRC",
         "color" : "Puma Black-Victoria Blue",
@@ -144,7 +144,7 @@
         "stock": "8"
     },
     {
-        "id": 14,
+       
         "name": "Zapatillas para bebés Pokémon Charmander",
         "description": "Calzado para bebe Pokemon",
         "color" : "Dark Cheddar-Pale Lemon",
@@ -155,7 +155,7 @@
         "stock": "3"
     },
     {
-        "id": 15,
+      
         "name": "Botines FUTURE 3.4 Neymar Jr. TT",
         "description": "Calzado para niño Neymar",
         "color" : "Fiery Coral-Gold",
@@ -166,7 +166,7 @@
         "stock": "5"
     },
     {
-        "id": 16,
+      
         "name": "Zapatillas para bebés CA Pro",
         "description": "Calzado para bebes CA",
         "color" : "Puma White-Varsity Green",
@@ -177,7 +177,7 @@
         "stock": "5"
     },
     {
-        "id": 17,
+    
         "name": "Zapatillas RS-Z Reinvention Para niños",
         "description": "Calzado niño Reinvention",
         "color" : "Nimbus Cloud-Puma Black",
@@ -188,7 +188,7 @@
         "stock": "7"
     },
     {
-        "id": 18,
+     
         "name": "Zapatillas para bebés PUMA x Pokémon Rider FV Pikachu",
         "description": "Calzado niño Pikachu",
         "color" : "Puma White-Empire Yellow",
@@ -199,7 +199,7 @@
         "stock": "7"
     },
     {
-        "id": 19,
+    
         "name": "Camiseta de fútbol Neymar ",
         "description": "Camiseta de futbol",
         "color" : "Parisian Night",
@@ -210,7 +210,7 @@
         "stock": "10"
     },
     {
-        "id": 20,
+        
         "name": "Remera Essentials Logo Tee",
         "description": "Remera Essential",
         "color" : "Medium Gray Heather",
@@ -221,7 +221,7 @@
         "stock": "5"
     },
     {
-        "id": 21,
+    
         "name": "Remera con estampado gráfico HC",
         "description": "Remera con estampado",
         "color" : "Puma Bamboo",
@@ -232,7 +232,7 @@
         "stock": "11"
     },
     {
-        "id": 22,
+       
         "name": "Remera Essentials Logo jaspeada para mujer",
         "description": "Remera Essentials dama",
         "color" : "Peach Parfait",
@@ -243,7 +243,7 @@
         "stock": "8"
     },
     {
-        "id": 23,
+     
         "name": "Remera Essentials Logo jaspeada",
         "description":  "Remera Essentials dama",
         "color" : "Persian Red Heather",
@@ -254,7 +254,7 @@
         "stock": "10"
     },
     {
-        "id": 24,
+     
         "name": "Remera Essentials Logo jaspeada ",
         "description":  "Remera Essentials dama",
         "color" : "Grape Leaf Heather",

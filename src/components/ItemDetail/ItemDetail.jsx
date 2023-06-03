@@ -1,4 +1,4 @@
-import { useState, useContext,useMemo } from "react"
+import { useState, useContext } from "react"
 import ItemCount from "../ItemCount/ItemCount"
 import SelectTalle from "../SelectTalle/SelectTalle";
 import "./ItemDetail.scss"

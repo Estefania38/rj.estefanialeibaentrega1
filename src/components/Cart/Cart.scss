@@ -1,0 +1,39 @@
+.product-card-container2{
+    display: flex;
+    flex-direction: column;
+    margin-right: auto ;
+}
+.img-card {
+    width: 300px;
+    margin: 0px;  
+}
+
+
+h3 {
+    font-size: 25px;
+    margin-top: 40px;
+}
+p{
+    font-size: 18px;
+}
+.description {
+    font-size: 20px;
+}
+
+.total{
+    padding-bottom: 50px;
+    margin-left: initial;
+}
+
+.product1{
+    margin-left: initial;
+}
+.contenedor{
+    display: flex;
+    flex-direction:column;
+   
+}
+.tituloC{
+    margin-left: initial;
+    padding: 40px;
+}

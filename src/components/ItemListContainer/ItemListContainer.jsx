@@ -5,6 +5,7 @@ import ItemList from '../ItemList/ItemList'
 import { useParams } from 'react-router-dom'
 import { collection, getDocs, query, where } from 'firebase/firestore';
 import { db } from "../../firebase/config.js";
+import Banner from '../Banner/Banner'
 
 export const ItemListContainer = () => {
     const [productos, setProductos] = useState([])
@@ -38,6 +39,9 @@ export const ItemListContainer = () => {
 
     return (
         <div className="container my-5">
+            
+
+            {/* <Banner/> */}
             {loading 
                 ? <h2>Cargando..</h2>
                 : <ItemList items={productos}/>

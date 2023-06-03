@@ -9,3 +9,9 @@ const productosRef = collection(db, 'productos')
 MOCK_DATA.forEach((el) => {
     addDoc(productosRef, el)
 })
+
+const ordersRef = collection(db, 'orders')
+
+FORM_ELEMENT.forEach((el) => {
+    addDoc(ordersRef, el)
+})

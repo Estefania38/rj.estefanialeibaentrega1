@@ -13,6 +13,7 @@ const LoginScreen = () => {
     })
 
     const handleInput = (e) => {
+        console.log(values)
         setValues({
             ...values,
             [e.target.name]: e.target.value
@@ -48,7 +49,9 @@ const LoginScreen = () => {
                         onChange={handleInput}
                     />
                     <br />
+                    <Link to="/">
                     <button className="btn btn btn-login" type="submit">INGRESAR</button>
+                    </Link>
                     <button className="btn btn  btn-login">
                     <Link  to="/register">REGISTRARME</Link>
                     </button>

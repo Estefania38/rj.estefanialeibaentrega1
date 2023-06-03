@@ -1,4 +1,5 @@
 import "./Footer.scss";
+import SocialIcons from "./SocialIcons/SocialIcons";
 
 
 const Footer = () => {
@@ -50,6 +51,7 @@ const Footer = () => {
           </div>
           <div className="sb__footer-links_div">
             <h4>Siguenos en redes sociales</h4>
+            <SocialIcons/>
            
           </div>
         </div>
